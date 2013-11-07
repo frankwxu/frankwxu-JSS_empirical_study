@@ -1,0 +1,33 @@
+@RELATION Triangle_Test_Data
+
+@ATTRIBUTE a>=b+c {1, 0}
+@ATTRIBUTE b>=a+c {1, 0}
+@ATTRIBUTE c>=a+b {1, 0}
+@ATTRIBUTE a!=b {1, 0}
+@ATTRIBUTE b!=c {1, 0}
+@ATTRIBUTE a=b {1, 0}
+@ATTRIBUTE a=c {1, 0}
+@ATTRIBUTE b=c {1, 0}
+@ATTRIBUTE class {1,2,3,4}
+
+@DATA
+1 0 0 1 1 0 0 0 4
+0 0 0 0 0 1 1 1 1
+0 0 0 0 1 1 0 0 2
+0 0 0 1 1 0 0 0 3
+0 1 0 1 1 0 0 0 4
+0 0 0 0 0 1 1 1 1
+0 0 0 1 1 0 1 0 2
+0 0 0 1 1 0 0 0 3
+0 0 1 1 1 0 0 0 4
+0 0 0 0 0 1 1 1 1
+0 0 0 0 1 1 0 0 2
+0 0 0 1 1 0 0 0 3
+1 0 0 1 1 0 0 0 4
+0 0 0 0 0 1 1 1 1
+0 0 0 1 0 0 0 1 2
+0 0 0 1 1 0 0 0 3
+0 1 0 1 1 0 0 0 4
+0 0 0 0 0 1 1 1 1
+0 0 0 1 1 0 1 0 2
+0 0 0 1 1 0 0 0 3

@@ -1,0 +1,34 @@
+@RELATION NextDate_Test_Data
+
+@ATTRIBUTE d1(m=1) {1, 0}
+@ATTRIBUTE d2(m=3) {1, 0}
+@ATTRIBUTE d3(m=5) {1, 0}
+@ATTRIBUTE d4(m=7) {1, 0}
+@ATTRIBUTE d5(m=8) {1, 0}
+@ATTRIBUTE d6(m!=10) {1, 0}
+@ATTRIBUTE d7(d>=31) {1, 0}
+@ATTRIBUTE d8(m=4) {1, 0}
+@ATTRIBUTE d9(m=6) {1, 0}
+@ATTRIBUTE d10(m=9) {1, 0}
+@ATTRIBUTE d11(m!=11) {1, 0}
+@ATTRIBUTE d12(d>=30) {1, 0}
+@ATTRIBUTE d13(m!=12) {1, 0}
+@ATTRIBUTE d14(d>=31) {1, 0}
+@ATTRIBUTE d15(d>=28) {1, 0}
+@ATTRIBUTE d16(d!=28) {1, 0}
+@ATTRIBUTE d17(!y4) {1, 0}
+@ATTRIBUTE d18(!y100) {1, 0}
+@ATTRIBUTE d19(!y400) {1, 0}
+@ATTRIBUTE class {1, 2, 3}
+
+@DATA
+1 0 0 0 0 1 0 0 0 0 1 0 1 0 0 1 1 1 1 1
+1 0 0 0 0 1 1 0 0 0 1 1 1 1 1 1 1 1 1 2
+0 0 0 0 0 1 0 1 0 0 1 0 1 0 0 1 1 1 1 1
+0 0 0 0 0 1 0 1 0 0 1 1 1 0 1 1 1 1 1 2
+0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1
+0 0 0 0 0 1 1 0 0 0 1 1 0 1 1 1 1 1 1 3
+0 0 0 0 0 1 0 0 0 0 1 0 1 0 0 1 1 1 1 1
+0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 0 1 1 1
+0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 1 1 1 2
+0 0 0 0 0 1 0 0 0 0 1 0 1 0 1 1 0 1 1 2
